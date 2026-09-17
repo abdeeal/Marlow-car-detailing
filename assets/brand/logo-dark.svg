@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 104" role="img" aria-labelledby="title">
+<title id="title">Marlow Auto Detail</title>
+<path d="M18 76V28L42 60L66 28V76" fill="none" stroke="#202322" stroke-width="7" stroke-linejoin="miter"/>
+<path d="M18 88H66" stroke="#9A5637" stroke-width="4"/>
+<text x="94" y="57" fill="#202322" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="700" letter-spacing="3">MARLOW</text>
+<text x="96" y="83" fill="#202322" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="5">AUTO DETAIL</text>
+</svg>

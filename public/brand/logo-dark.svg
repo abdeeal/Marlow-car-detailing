@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 104" role="img" aria-labelledby="title">
+  <title id="title">Marlow Auto Detail</title>
+  <g transform="translate(10 12)">
+    <circle cx="40" cy="40" r="30" fill="none" stroke="#202322" stroke-width="11"/>
+    <g fill="#F5F2EB"><path d="M35 0h10l-2 16h-6z"/><path d="M61 9l8 6-11 12-5-5z"/><path d="M72 35v10l-16-2v-6z"/><path d="M61 61l-8 8-7-13 5-4z"/><path d="M35 64h10l2 16H37z"/><path d="M9 61l-8-8 13-7 4 5z"/><path d="M0 35v10l16-2v-6z"/><path d="M9 9l8-8 7 13-5 4z"/></g>
+    <path d="M20 58V29l20 20 20-20v29" fill="none" stroke="#9A5637" stroke-width="9" stroke-linejoin="miter"/>
+  </g>
+  <text x="104" y="63" fill="#202322" font-family="Arial,Helvetica,sans-serif" font-size="52" font-weight="900" letter-spacing="-1">MARLOW</text>
+  <text x="106" y="84" fill="#202322" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="4.2">AUTO DETAIL</text>
+</svg>

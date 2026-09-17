@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-17T03:11:07.733Z",
+  "title": "Design System: Marlow Auto Detail",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Graphite Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.00478 174.03)",
+          "oklch(26.43% 0.00478 174.03)",
+          "oklch(37.86% 0.00478 174.03)",
+          "oklch(49.29% 0.00478 174.03)",
+          "oklch(60.71% 0.00478 174.03)",
+          "oklch(72.14% 0.00478 174.03)",
+          "oklch(83.57% 0.00478 174.03)",
+          "oklch(95.00% 0.00478 174.03)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Ivory Paper",
+        "tonalRamp": [
+          "oklch(15.00% 0.00984 87.47)",
+          "oklch(26.43% 0.00984 87.47)",
+          "oklch(37.86% 0.00984 87.47)",
+          "oklch(49.29% 0.00984 87.47)",
+          "oklch(60.71% 0.00984 87.47)",
+          "oklch(72.14% 0.00984 87.47)",
+          "oklch(83.57% 0.00984 87.47)",
+          "oklch(95.00% 0.00984 87.47)"
+        ]
+      },
+      "copper": {
+        "role": "primary",
+        "displayName": "Copper",
+        "tonalRamp": [
+          "oklch(15.00% 0.10059 44.50)",
+          "oklch(26.43% 0.10059 44.50)",
+          "oklch(37.86% 0.10059 44.50)",
+          "oklch(49.29% 0.10059 44.50)",
+          "oklch(60.71% 0.10059 44.50)",
+          "oklch(72.14% 0.10059 44.50)",
+          "oklch(83.57% 0.10059 44.50)",
+          "oklch(95.00% 0.10059 44.50)"
+        ]
+      },
+      "copper-soft": {
+        "role": "primary",
+        "displayName": "Soft Copper",
+        "tonalRamp": [
+          "oklch(15.00% 0.08335 52.13)",
+          "oklch(26.43% 0.08335 52.13)",
+          "oklch(37.86% 0.08335 52.13)",
+          "oklch(49.29% 0.08335 52.13)",
+          "oklch(60.71% 0.08335 52.13)",
+          "oklch(72.14% 0.08335 52.13)",
+          "oklch(83.57% 0.08335 52.13)",
+          "oklch(95.00% 0.08335 52.13)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15.00% 0.01048 134.93)",
+          "oklch(26.43% 0.01048 134.93)",
+          "oklch(37.86% 0.01048 134.93)",
+          "oklch(49.29% 0.01048 134.93)",
+          "oklch(60.71% 0.01048 134.93)",
+          "oklch(72.14% 0.01048 134.93)",
+          "oklch(83.57% 0.01048 134.93)",
+          "oklch(95.00% 0.01048 134.93)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(15.00% 0.00581 128.53)",
+          "oklch(26.43% 0.00581 128.53)",
+          "oklch(37.86% 0.00581 128.53)",
+          "oklch(49.29% 0.00581 128.53)",
+          "oklch(60.71% 0.00581 128.53)",
+          "oklch(72.14% 0.00581 128.53)",
+          "oklch(83.57% 0.00581 128.53)",
+          "oklch(95.00% 0.00581 128.53)"
+        ]
+      },
+      "control-white": {
+        "role": "neutral",
+        "displayName": "Control White",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 89.88)",
+          "oklch(26.43% 0.00000 89.88)",
+          "oklch(37.86% 0.00000 89.88)",
+          "oklch(49.29% 0.00000 89.88)",
+          "oklch(60.71% 0.00000 89.88)",
+          "oklch(72.14% 0.00000 89.88)",
+          "oklch(83.57% 0.00000 89.88)",
+          "oklch(95.00% 0.00000 89.88)"
+        ]
+      },
+      "error": {
+        "role": "semantic",
+        "displayName": "Error",
+        "tonalRamp": [
+          "oklch(15.00% 0.18205 29.51)",
+          "oklch(26.43% 0.18205 29.51)",
+          "oklch(37.86% 0.18205 29.51)",
+          "oklch(49.29% 0.18205 29.51)",
+          "oklch(60.71% 0.18205 29.51)",
+          "oklch(72.14% 0.18205 29.51)",
+          "oklch(83.57% 0.18205 29.51)",
+          "oklch(95.00% 0.18205 29.51)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Expressive automotive poster moments."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Clear balanced section headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Service and editorial information."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Compact semibold controls and information."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "control-transition",
+        "value": "0.2s",
+        "purpose": "Button, arrow, navigation and tab state transitions; disabled for reduced motion."
+      },
+      {
+        "name": "section-ease",
+        "value": "power3.out",
+        "purpose": "GSAP copy, process and service transitions."
+      },
+      {
+        "name": "display-ease",
+        "value": "expo.out",
+        "purpose": "GSAP display and photographic reveal."
+      },
+      {
+        "name": "ribbon-loop",
+        "value": "28s linear infinite",
+        "purpose": "GSAP continuous ribbon with pause/play; bypassed for reduced motion."
+      },
+      {
+        "name": "service-change",
+        "value": "0.45s power3.out",
+        "purpose": "Selected service panel arrival."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone",
+        "value": "600px"
+      },
+      {
+        "name": "navigation-tablet",
+        "value": "820px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1100px"
+      },
+      {
+        "name": "wide-hero",
+        "value": "1600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Graphite rectangular action with an inline arrow.",
+      "html": "<button class=\"ds-button\">Find your treatment<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:space-between;gap:32px;min-height:54px;padding:15px 24px;border:0;border-radius:0;background:var(--ink);color:white;font-family:var(--body);font-size:14px;font-weight:600;cursor:pointer;transition:background .2s,transform .2s;}.ds-button:hover{background:var(--copper);transform:translateY(-2px);}.ds-button svg{transition:transform .2s;}.ds-button:hover svg{transform:translateX(4px);}.ds-button:focus-visible{outline:3px solid var(--copper-soft);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-button,.ds-button svg{transition:none;}}"
+    },
+    {
+      "name": "Light Button",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Ivory action for a dark photographic stage.",
+      "html": "<button class=\"ds-button ds-light\">Find your treatment<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:space-between;gap:32px;min-height:54px;padding:15px 24px;border:0;border-radius:0;background:var(--ink);color:white;font-family:var(--body);font-size:14px;font-weight:600;cursor:pointer;transition:background .2s,transform .2s;}.ds-button:hover{background:var(--copper);transform:translateY(-2px);}.ds-button svg{transition:transform .2s;}.ds-button:hover svg{transform:translateX(4px);}.ds-button:focus-visible{outline:3px solid var(--copper-soft);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-button,.ds-button svg{transition:none;}}.ds-light{background:var(--paper);color:var(--ink);}.ds-light:hover{background:var(--copper-soft);}"
+    },
+    {
+      "name": "Text Link",
+      "kind": "button",
+      "description": "Ruled secondary action.",
+      "html": "<a class=\"ds-link\" href=\"#booking\">Plan your detail<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></a>",
+      "css": ".ds-link{display:inline-flex;align-items:center;gap:30px;padding-bottom:5px;border-bottom:1px solid currentColor;color:var(--ink);font-family:var(--body);font-size:14px;font-weight:600;text-decoration:none;}.ds-link svg{transition:transform .2s;}.ds-link:hover svg{transform:translateX(4px);}.ds-link:focus-visible{outline:3px solid var(--copper-soft);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-link svg{transition:none;}}"
+    },
+    {
+      "name": "Vehicle Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Explicit label and square outlined field.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-vehicle\">Vehicle make &amp; model</label><input id=\"ds-vehicle\" placeholder=\"e.g. BMW M4\" required /></div>",
+      "css": ".ds-field{font-family:var(--body);color:var(--ink);}.ds-field label{display:block;font-size:12px;font-weight:600;margin-bottom:8px;}.ds-field input{display:block;width:100%;min-height:50px;padding:14px 16px;border:1px solid #92978d;border-radius:0;background:transparent;color:inherit;font:inherit;font-size:14px;caret-color:var(--copper);}.ds-field input::placeholder{color:var(--muted);opacity:1;}.ds-field input:focus-visible{outline:3px solid var(--copper-soft);outline-offset:5px;}.ds-field input[aria-invalid=\"true\"]{border-color:#b42318;}@media(max-width:600px){.ds-field input{font-size:16px;padding:13px;}}"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "description": "Compact semibold links reveal a copper underline.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#services\">Treatments</a><a href=\"#how-it-works\">How it works</a></nav>",
+      "css": ".ds-nav{display:flex;gap:32px;background:var(--paper);color:var(--ink);font-family:var(--body);}.ds-nav a{position:relative;padding:12px 0;font-size:13px;font-weight:600;color:inherit;text-decoration:none;}.ds-nav a:after{content:\"\";position:absolute;bottom:4px;left:0;width:100%;height:2px;background:var(--copper);transform:scaleX(0);transform-origin:left;transition:transform .2s;}.ds-nav a:hover:after{transform:scaleX(1);}.ds-nav a:focus-visible{outline:3px solid var(--copper-soft);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-nav a:after{transition:none;}}"
+    },
+    {
+      "name": "Topic Tag",
+      "kind": "chip",
+      "refersTo": "topic-tag",
+      "description": "Non-interactive descriptive pill.",
+      "html": "<span class=\"ds-tag\">Interior care</span>",
+      "css": ".ds-tag{display:inline-block;border:1px solid var(--line);border-radius:30px;padding:6px 10px;color:var(--ink);font-family:var(--body);font-size:10px;font-weight:600;}"
+    },
+    {
+      "name": "Service Tabs",
+      "kind": "nav",
+      "refersTo": "service-tab",
+      "description": "Selected soft-copper tab against a graphite stage.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\" aria-label=\"Detailing treatments\"><button role=\"tab\" aria-selected=\"true\">Interior Detail<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></button><button role=\"tab\" aria-selected=\"false\" tabindex=\"-1\">Paint Enhancement<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></button></div>",
+      "css": ".ds-tabs{display:flex;background:var(--ink);border-top:1px solid #f5f2eb35;border-bottom:1px solid #f5f2eb35;font-family:var(--body);}.ds-tabs button{display:flex;align-items:center;justify-content:space-between;flex:1;gap:12px;min-height:68px;padding:16px 18px;border:0;border-right:1px solid #f5f2eb35;border-radius:0;background:transparent;color:var(--paper);font:inherit;font-size:12px;text-align:left;cursor:pointer;transition:background .2s,color .2s;}.ds-tabs button:hover{background:#f5f2eb15;}.ds-tabs button[aria-selected=\"true\"]{background:var(--copper-soft);color:var(--ink);}.ds-tabs button[aria-selected=\"true\"]:hover{background:var(--copper-soft);}.ds-tabs button:focus-visible{outline:3px solid var(--copper-soft);outline-offset:5px;}.ds-tabs svg{width:18px;height:18px;transform:rotate(-45deg);}@media(prefers-reduced-motion:reduce){.ds-tabs button{transition:none;}}"
+    },
+    {
+      "name": "Service Information Panel",
+      "kind": "card",
+      "refersTo": "service-panel",
+      "description": "Flat ivory information surface with readable price and scope.",
+      "html": "<section class=\"ds-panel\"><h3>Interior care.</h3><p>A fresh cabin. Care for the details.</p><div class=\"ds-price\">Treatment scope and starting price</div><button class=\"ds-button\">Choose your treatment<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></button></section>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:space-between;gap:32px;min-height:54px;padding:15px 24px;border:0;border-radius:0;background:var(--ink);color:white;font-family:var(--body);font-size:14px;font-weight:600;cursor:pointer;transition:background .2s,transform .2s;}.ds-button:hover{background:var(--copper);transform:translateY(-2px);}.ds-button svg{transition:transform .2s;}.ds-button:hover svg{transform:translateX(4px);}.ds-button:focus-visible{outline:3px solid var(--copper-soft);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-button,.ds-button svg{transition:none;}}.ds-panel{padding:42px 44px;background:var(--paper);color:var(--ink);font-family:var(--body);}.ds-panel h3{margin:0 0 18px;font-size:46px;font-weight:800;line-height:1.05;letter-spacing:-.03em;}.ds-panel p{margin:0;color:var(--muted);font-size:14px;line-height:1.6;max-width:48ch;}.ds-price{padding:22px 0 18px;margin-bottom:20px;border-bottom:1px solid var(--line);font-size:12px;}.ds-price strong{margin-left:7px;font-size:36px;font-weight:600;letter-spacing:-.03em;}@media(max-width:600px){.ds-panel{padding:28px 24px 32px;}.ds-panel h3{font-size:38px;}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The First-Drive Poster",
+    "overview": "Marlow pairs the confidence of an automotive campaign with the clarity of an editorial service guide. Condensed display lettering, authentic car photographs and copper graphic fields give it an expressive, playful character. Graphite and ivory retain the established brand identity.\n\nDensity changes deliberately: expansive photographic compositions give way to a focused service stage, ruled information and compact controls. GSAP animates type, photography and authored geometric marks; the static composition stays legible with reduced motion. Existing SVG logos, British English and authentic photographic evidence remain brand commitments.",
+    "keyCharacteristics": [
+      "Oversized condensed display type paired with calm sans-serif information.",
+      "Graphite, ivory and copper fields with soft copper emphasis on dark surfaces.",
+      "Square photographic stages, thin rules and selective circular accents.",
+      "Purposeful motion with visible controls for continuous movement."
+    ],
+    "rules": [
+      {
+        "name": "The Surface Contrast Rule",
+        "body": "Use soft copper for emphasis on graphite and copper for emphasis on ivory. Readable copy over photography needs a dark scrim or an opaque caption field.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Use Barlow Condensed for expressive display moments and DM Sans for information, controls and section headings.",
+        "section": "typography"
+      },
+      {
+        "name": "The Material Depth Rule",
+        "body": "Establish depth with photographic composition, contrast and overlap; keep buttons, controls and information surfaces flat.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do preserve the confirmed graphite, ivory, copper and soft-copper palette.",
+      "Do use authentic photographs with truthful alt text and provenance.",
+      "Do pair expressive display composition with clear service and action text.",
+      "Do preserve visible focus, native disclosures, keyboard selection and reduced-motion handling.",
+      "Do keep photographic subjects recognisable and captions readable."
+    ],
+    "donts": [
+      "Don't use fabricated reviews, customer-project evidence, generated photography or simulated comparisons.",
+      "Don't invent operational contacts or claim an appointment was submitted without an actual submission service.",
+      "Don't turn every surface into the same card composition or replace material depth with decorative shadows.",
+      "Don't place essential information in outlined display lettering or uncontrolled continuous motion."
+    ]
+  }
+}
