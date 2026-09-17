@@ -1,6 +1,6 @@
 export const site = {
   name: "Marlow Auto Detail",
-  title: "Marlow Auto Detail — Car Detailing in Manchester",
+  title: "Marlow Auto Detail",
   description:
     "Interior detailing, deep cleansing and paint enhancement. Considered car care in Manchester, Salford and Trafford.",
   tagline: "A little obsessive. A lot of detail.",

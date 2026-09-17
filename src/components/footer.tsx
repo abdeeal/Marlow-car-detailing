@@ -34,7 +34,6 @@ export function Footer() {
         <div className="footer-bottom">
           <span>© {new Date().getFullYear()} Marlow Auto Detail</span>
           <span>Manchester. Made for the details.</span>
-          <a href="/privacy">Privacy & photo credits</a>
         </div>
         <div className="footer-word" aria-hidden="true">
           MARLOW<span>.</span>

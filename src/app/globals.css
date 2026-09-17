@@ -535,7 +535,6 @@ textarea {
 .service-panel {
   display: grid;
   grid-template-columns: 1.12fr 1fr;
-  min-height: 540px;
   background: var(--paper);
   color: var(--ink);
 }
@@ -1399,7 +1398,7 @@ details[open] .faq-icon:after {
     grid-template-columns: 1fr;
   }
   .service-panel {
-    min-height: 580px;
+    min-height: 0;
   }
   .detail-section {
     gap: 36px;
@@ -1517,7 +1516,7 @@ details[open] .faq-icon:after {
   }
   .service-panel {
     grid-template-columns: 1fr 1fr;
-    min-height: 600px;
+    min-height: 0;
   }
   .service-info h3 {
     font-size: 34px;
@@ -1781,7 +1780,7 @@ details[open] .faq-icon:after {
     grid-template-columns: 1fr;
   }
   .service-visual {
-    height: 280px;
+    height: auto;
   }
   .service-visual img {
     object-position: 50% 65%;
